@@ -11,12 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Dotnet_Challenge_Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Dotnet_Challenge_Repository", "Enoca_Dotnet_Challenge_Repository\Enoca_Dotnet_Challenge_Repository.csproj", "{155AC3CC-3A5D-4C37-8C1C-3687544BBB58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Scripts", "Database Scripts", "{97A6A5EC-24F3-43D4-BD40-DF6427713E5D}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Documents\EnocaDb.sql = ..\..\..\Documents\EnocaDb.sql
-		..\..\..\Documents\HangfireEnocaDb.sql = ..\..\..\Documents\HangfireEnocaDb.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
