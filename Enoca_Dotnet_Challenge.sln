@@ -5,11 +5,17 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Dotnet_Challenge_Api", "Enoca_Dotnet_Challenge\Enoca_Dotnet_Challenge_Api.csproj", "{D4CDB5D8-42E8-4399-A247-30AD4E72E434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enoca_Dotnet_Challenge_Core", "Enoca_Dotnet_Challenge_Core\Enoca_Dotnet_Challenge_Core.csproj", "{68AAA695-DD24-49F6-888B-E1F6A9319C09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Dotnet_Challenge_Core", "Enoca_Dotnet_Challenge_Core\Enoca_Dotnet_Challenge_Core.csproj", "{68AAA695-DD24-49F6-888B-E1F6A9319C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enoca_Dotnet_Challenge_Service", "Enoca_Dotnet_Challenge_Service\Enoca_Dotnet_Challenge_Service.csproj", "{90A9C6D6-23C3-4893-90C3-25F6456E2368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Dotnet_Challenge_Service", "Enoca_Dotnet_Challenge_Service\Enoca_Dotnet_Challenge_Service.csproj", "{90A9C6D6-23C3-4893-90C3-25F6456E2368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enoca_Dotnet_Challenge_Repository", "Enoca_Dotnet_Challenge_Repository\Enoca_Dotnet_Challenge_Repository.csproj", "{155AC3CC-3A5D-4C37-8C1C-3687544BBB58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Dotnet_Challenge_Repository", "Enoca_Dotnet_Challenge_Repository\Enoca_Dotnet_Challenge_Repository.csproj", "{155AC3CC-3A5D-4C37-8C1C-3687544BBB58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Scripts", "Database Scripts", "{97A6A5EC-24F3-43D4-BD40-DF6427713E5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\EnocaDb.sql = ..\..\..\Documents\EnocaDb.sql
+		..\..\..\Documents\HangfireEnocaDb.sql = ..\..\..\Documents\HangfireEnocaDb.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
